@@ -1,0 +1,40 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6  {
+  font-family: 'helvetica neue', helvetica, 'Microsoft Yahei', 微软雅黑, 'Hiragino Sans GB', 冬青黑体, 'WenQuanYi Micro Hei', 文泉驿微米黑, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.bar-title {
+  display: inline-block;
+  
+}
+
+
+.navhead:before {
+    content: "";
+    display: inline-block;
+    height: 27px;
+    width: 6px;
+    background-color: #FFC537;
+    vertical-align: middle;
+    margin-right: 0px;
+  
+  }
+.navhead:after {
+    content:"";
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 1px;
+    overflow: hidden;
+    border-bottom: 1px solid #b7b7b7;
+    vertical-align: middle;
+  }
+.navhead{
+  color: #E66E2F;
+  margin-bottom: 10px;
+}
+.navhead-small:after {
+    width: 212px;
+  }
+
+.navhead-large:after{
+    width: 600px;
+  }
